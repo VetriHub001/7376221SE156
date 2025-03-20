@@ -3,10 +3,10 @@ import { fetchUsers } from "../api/api";
 
 const sampleUsers = [
     { id: 1, username: "tech_guru", avatar: "https://randomuser.me/api/portraits/men/32.jpg", postCount: 50 },
-    { id: 2, username: "dev_jane", avatar: "https://randomuser.me/api/portraits/women/45.jpg", postCount: 45 },
+    { id: 2, username: "sci_person", avatar: "https://randomuser.me/api/portraits/women/45.jpg", postCount: 45 },
     { id: 3, username: "frontend_wizard", avatar: "https://randomuser.me/api/portraits/men/50.jpg", postCount: 40 },
-    { id: 4, username: "css_master", avatar: "https://randomuser.me/api/portraits/women/22.jpg", postCount: 38 },
-    { id: 5, username: "js_ninja", avatar: "https://randomuser.me/api/portraits/men/60.jpg", postCount: 35 }
+    { id: 4, username: "Jacks Parrow", avatar: "https://randomuser.me/api/portraits/men/60.jpg", postCount: 38 },
+    { id: 5, username: "js_ninja", avatar: "https://randomuser.me/api/portraits/women/22.jpg", postCount: 35 }
 ];
 
 const TopUsers = () => {
